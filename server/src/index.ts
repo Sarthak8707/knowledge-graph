@@ -1,9 +1,7 @@
-import {env} from './config/env'
 import {db } from './db/client';
 import { posts, users } from './db/schema';
 //import { posts, users } from './db/schema';
 
-//const port = env.PORT
 
 const name: string = "NEw user..."
 console.log("HEllo: ", name);
